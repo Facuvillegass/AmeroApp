@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders List</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg fondoMenuNav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../multimedia/LogoAmeroApp.jpg" height="80">
+              </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon colorToggler"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse justify-content-end colorBotonesMenuNav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/playerList.html">Players List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/ordersList.html">Orders List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/loadPlayer.html">Load Player</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/loadClubOrder.html">Load Order </a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+    <div class="contenedorPlayerList">
+        <h1 class="tituloPlayersList">Orders List</h1>
+    <label for="buscarJugador">Search Order</label>
+    <br>
+    <input type="text" name="buscarJugador">
+    <table>
+        <tr><th>Order</th>
+        <th>Club/Agent</th>
+        <th>Position</th>
+        
+        </tr>
+
+        <tr>
+            <td>Boca Juniors</td>
+            <td>Club</td>
+            <td>CF</td>
+            <td><button class = "btnGo" type="button">GO!</button></td>
+        </tr>
+
+        <tr>
+            <td>Juan Sánchez Raiola</td>
+            <td>Agent</td>
+            <td>LAMF</td>
+            <td><button class = "btnGo" type="button">GO!</button></td>
+        </tr>
+
+        <tr>
+            <td>River Plate</td>
+            <td>Club</td>
+            <td>LB</td>
+            <td><button class = "btnGo" type="button">GO!</button></td>
+        </tr>
+
+        <tr>
+            <td>Lanus</td>
+            <td>Club</td>
+            <td>DFC</td>
+            <td><button class = "btnGo" type="button">GO!</button></td>
+        </tr>
+
+        <tr>
+            <td>Andrés Sánchez</td>
+            <td>Agent</td>
+            <td>CF</td>
+            <td><button class = "btnGo" type="button">GO!</button></td>
+        </tr>
+
+    </table>
+</div>
+
+</main>
+
+    <style>
+
+        .contenedorPlayerList
+        {
+        text-align: center;    
+        }
+
+        .tituloPlayersList{
+            text-align: center;
+        }
+        
+        label, input{
+            color: white;
+        }
+        table{
+            margin-top: 25px;
+           width: 80%;
+           margin-right: auto;
+           margin-left: auto;
+            color: black;
+            border: 2px white solid;
+            
+        }
+
+        td, th, h1
+        {
+            color: white;
+        }
+
+        td, th
+        {
+            padding: 10px;
+
+        }
+        .btnGo
+        {
+            color: white;
+            border: solid 2px lightseagreen;
+        }
+
+    </style>
+    
+</body>
+</html>

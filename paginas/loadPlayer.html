@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Player</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+  
+      
+<header>
+    <nav class="navbar navbar-expand-lg fondoMenuNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../multimedia/LogoAmeroApp.jpg" height="80">
+          </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon colorToggler"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse justify-content-end colorBotonesMenuNav" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/playerList.html">Players List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/ordersList.html">Orders List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/loadPlayer.html">Load Player</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/loadClubOrder.html">Load Order </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<main>
+  
+  <div class="tituloLoadPlayer">
+    <h1>Load Player</h1>
+  </div>
+  <div class="gridContenedorLoadPlayer">
+    <div class="contenedorNombre">
+    <label for="nombreJugador">Player Name</label>
+    <br>
+    <input type="text" name="nombreJugador" id="nombreJugador">
+    </div>
+
+  <div class="contenedorEdad">
+    <label for="edadJugador">Age</label>
+    <br>
+    <select name="edadJugador" id="edadJugador">
+      <option value="ninguna">No option selected</option>
+      <option value="18-21">18-21</option>
+      <option value="22-25">22-25</option>
+      <option value="26-29">26-29</option>
+      <option value="30-33">30-33</option>
+      <option value="34-37">34-37</option>
+      <option value="+38">+38</option>
+    </select>
+  </div>
+
+  <div class = "contenedorPosicionPrincipal">
+    <label for="posicionPrincipal">Main Position</label>
+    <br>
+    <select name="posicionPrincipal" id="posicionPrincipal">
+      <option value="ninguna">No option selected</option>
+      <option value="GK">GK</option>
+      <option value="LB">LB</option>
+      <option value="LCB">LCB</option>
+      <option value="RCB">RCB</option>
+      <option value="RB">RB</option>
+      <option value="DM">DM</option>
+      <option value="LCMF">LCMF</option>
+      <option value="RCMF">RCMF</option>
+      <option value="AMF">AMF</option>
+      <option value="LAMF">LAMF</option>
+      <option value="RAMF">RAMF</option>
+      <option value="LW">LW</option>
+      <option value="CF">CF</option>
+      <option value="RW">RW</option> 
+    </select>
+  </div>
+
+
+  <div class="contenedorPieHabil">
+    <label for="pieHabil">Foot</label>
+    <br>
+    <select name="pieHabil" id="pieHabil">
+      <option value="ninguna">No option selected</option>
+      <option value="LF">LF</option>  
+      <option value="RF">RF</option>
+      <option value="LRF">LRF</option>
+    </select>
+  </div>
+
+  <div class="contenedorNacionalidad">
+    <label for="nacionalidad">Nationality</label>
+    <br>
+    <select name="nacionalidad" id="nacionalidad">
+      <option value="ninguna">No option selected</option>
+      <!-- base de datos general de todos los países -->
+    </select>
+  </div>
+  
+  <div class = "contenedorPasaporte">
+    <label for="pasaporte">Community Passport</label>
+    <br>
+    <select name="pasaporte" id="pasaporte">
+      <option value="ninguna">No option selected</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+  </div>
+
+
+<div class= "contenedorTipoDeTransferencia">
+  <label for="tipoDeTransferencia">Transfer Type</label>
+  <br>
+  <select name="tipoDeTransferencia" id="tipoDeTransferencia">
+    <option value="ninguna">No option selected</option>
+    <option value="freeLoan">Free Loan</option>
+    <option value="loanFee+Option">Loan Free + Option</option>
+    <option value="transferFee">Transfer Fee</option>
+  </select>
+</div>
+
+<div class="contenedorValorDeTransferencia">
+  <label for="valorDeTransferencia">Transfer Value</label>
+  <br>
+  <select name="valorDeTransferencia" id="valorDeTransferencia">
+    <option value="ninguna">No option selected</option>
+    <option value="free">Free</option>
+    <option value="0-25K">0-25K</option>
+    <option value="26-50K">26-50K</option>
+    <option value="51-100K">51-100K</option>
+    <option value="101-200K">101-200K</option>
+    <option value="201-400K">201-400K</option>
+    <option value="401-700K">401-700K</option>
+    <option value="701K-1M">701K-1M</option>
+    <option value="1,01M-2M">1,01M-2M</option>
+    <option value="2,01M-4M">2,01M-4M</option>
+    <option value="4,01M-7M">4,01M-7M</option>
+    <option value="7,01M-10M">7,01M-10M</option>
+    <option value="+10M">+10M</option>
+  </select>
+</div>
+
+<div class="contenedorSueldo">
+  <label for="sueldo">Salary</label>
+  <br>
+  <select name="sueldo" id="sueldo">
+    <option value="ninguna">No option selected</option>
+    <option value="0-5K">0-5K</option>
+    <option value="6-10K">6-10K</option>
+    <option value="11-15K">11-15K</option>
+    <option value="16-20K">16-20K</option>
+    <option value="21-30K">21-30K</option>
+    <option value="31-50K">31-50K</option>
+    <option value="51-75K">51-75K</option>
+    <option value="76-100K">76-100K</option>
+    <option value="101-150K">101-150K</option>
+    <option value="+150K">+150K</option>
+  </select>
+</div>
+
+<div class="contenedorSituacionContractual">
+  <label for="situacionContractual">Contract Situation</label>
+  <br>
+  <select name="situacionContractual" id="situacionContractual">
+    <option value="ninguna">No option selected</option>
+    <option value="freePlayer">Free Player</option>
+    <option value="contract">Contract</option>
+  </select>
+</div>
+
+<div class="contenedorClaseJugador">
+  <label for="claseJugador">Player Class</label>
+  <br>
+  <select name="claseJugador" id="claseJugador">
+    <option value="ninguna">No option selected</option>
+    <option value="A">A</option>
+    <option value="AA">AA</option>
+    <option value="AAA">AAA</option>
+  </select>
+</div>
+
+<div class="subtituloLoadPlayer"><h2>More Info</h2></div>
+<!-- Estos son algunos datos que quieren tener los agentes de Amero pero que NO están incluídos en el sistema de matcheo, son datos meramente informativos.  -->
+
+<div class = "contenedorPioridad">
+  <label for="prioridad">Priority</label>
+  <br>
+  <select name="prioridad" id="prioridad">
+    <option value="ninguna">No option selected</option>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+</div>
+
+<div class="contenedorTipoDeSueldo">
+  <label for="tipoDeSueldo">Salary Method</label>
+  <br>
+  <select name="tipoDeSueldo" id="tipoDeSueldo">
+    <option value="ninguna">No option selected</option>
+    <option value="gross">Gross</option>
+    <option value="net">Net</option>
+  </select>
+</div>
+
+<div class="contenedorContratoRepresentante">
+  <label for="contratoRepresentante">Manager Contract</label>
+  <br>
+  <select name="contratoRepresentante" id="contratoRepresentante">
+    <option value="ninguna">No option selected</option>
+    <option value="contract">Contract</option>
+    <option value="noContract">No Contract</option>
+    <option value="AMERO">AMERO</option>
+    <option value="partnership">Partnership</option>
+  </select>
+</div>
+</div>
+
+<div class="centrarBtnLoadPlayer"><button type="button" class="btnLoadPlayer">Load Player</button></div>
+</main>
+
+
+
+
+    <script src="codigo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,591 @@
+*
+{
+    background-color: black;
+}
+.fondoMenuNav
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.colorBotonesMenuNav a
+{
+    color: rgb(252, 252, 252);
+}
+
+.colorBotonesMenuNav a:hover
+{
+    color: lightseagreen;
+}
+
+.colorToggler
+{
+  background-color: lightseagreen;
+}
+
+
+.botonMain
+{
+    background-color: black;
+    color: white;
+    border: solid 3px lightseagreen;
+}
+
+.botonMain:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+    .gridContenedorLoadPlayer
+    {
+      color: white;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(15,1fr);
+    }
+
+    .gridContenedorLoadPlayer select
+    {
+      color: white;
+      padding: 0px 50px;
+    }
+    .contenedorNombre
+    {
+     
+      grid-column: 2/4;
+      grid-row: 1/2;
+      text-align: center;
+    }
+    .contenedorNombre input{
+      color: white;
+    }
+ 
+    .contenedorEdad
+    {
+      grid-column: 2/4;
+      grid-row: 2/3;
+      text-align: center;
+    }
+    .contenedorEdad option
+    {
+      color: white;
+    }
+
+    .contenedorEdad select
+    {
+      color: white;
+    }
+
+    .contenedorPosicionPrincipal
+    {
+      grid-column: 2/4;
+      grid-row: 3/4;
+      text-align: center;
+    }
+
+    .contenedorPosicionPrincipal option
+    {
+      color: white;
+    }
+
+    .contenedorPieHabil{
+      grid-column: 2/4;
+      grid-row: 4/5;
+      text-align: center;
+    }
+
+    .contenedorPieHabil option
+    {
+      color: white;
+    }
+
+    .contenedorNacionalidad
+    {
+      grid-column: 2/4;
+      grid-row: 5/6;
+      text-align: center;
+    }
+
+    .contenedorNacionalidad option{
+      color: white;
+    }
+
+    .contenedorPasaporte{
+      grid-column: 2/4;
+      grid-row: 6/7;
+      text-align: center;
+    }
+
+    .contenedorPasaporte option{
+      color: white;
+    }
+
+    .contenedorTipoDeTransferencia
+    {
+      grid-column: 2/4;
+      grid-row: 7/8;
+      text-align: center;
+    }
+
+    .contenedorTipoDeTransferencia option
+    {
+      color: white;
+    }
+
+    .contenedorValorDeTransferencia
+    {
+      grid-column: 2/4;
+      grid-row: 8/9;
+      text-align: center;
+    }
+
+    .contenedorValorDeTransferencia option{
+      color: white;
+    }
+
+
+    .contenedorSueldo
+    {
+      grid-column: 2/4;
+      grid-row: 9/10;
+      text-align: center;
+    }
+
+    .contenedorSueldo option
+    {
+      color: white;
+    }
+
+    .contenedorSituacionContractual
+    {
+      grid-column: 2/4;
+      grid-row: 10/11;
+      text-align: center;
+    }
+
+    .contenedorSituacionContractual
+    option {
+      color: white;
+    }    
+    
+    .contenedorClaseJugador
+    {
+      grid-column: 2/4;
+      grid-row: 11/12;
+      text-align: center;
+    }
+
+    .contenedorClaseJugador option
+    {
+      color: white;
+    }   
+
+    .subtituloLoadPlayer
+    {
+      grid-column: 2/4;
+      grid-row: 12/13;
+      text-align: center;
+      padding-top: 10px;
+        }
+
+    .contenedorPioridad
+    {
+      grid-column: 2/4;
+      grid-row: 13/14;
+      text-align: center;
+    }
+
+    .contenedorPioridad option
+    { 
+      color: white;
+    }
+
+    .contenedorTipoDeSueldo
+    {
+      grid-column: 2/4;
+      grid-row: 14/15;
+      text-align: center;
+    }
+
+  .contenedorTipoDeSueldo option
+  {
+    color: white;
+  }
+
+
+    .contenedorContratoRepresentante
+    {
+      grid-column: 2/4;
+      grid-row: 15/16;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .contenedorContratoRepresentante
+ option{
+   color: white;
+ }
+
+
+
+
+ .tituloLoadPlayer
+ {
+     text-align: center;
+     color: whitesmoke;
+     margin-bottom: 10px;
+ }
+    
+ .centrarBtnLoadPlayer
+ {
+   text-align: center;
+   }
+
+ .btnLoadPlayer
+ {
+   color: white;
+   border: solid 3px white;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   padding: 5px 70px;
+   
+ }
+
+ .btnLoadPlayer:hover
+ {
+   color: black;
+   background-color: white;
+   border: solid 3px lightseagreen;
+ }
+    
+
+ .contenedorPlayerList
+ {
+ text-align: center;    
+ }
+
+ .tituloPlayersList{
+     text-align: center;
+ }
+ 
+ label {
+   color: white;
+   font-weight: 500;
+ }
+  input{
+     color: white;
+ }
+ table{
+     margin-top: 25px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+     color: black;
+     border: 2px white solid;
+     
+ }
+
+ td, th, h1
+ {
+     color: white;
+ }
+
+ td, th
+ {
+     padding: 10px;
+
+ }
+ .btnGo
+ {
+     color: white;
+     border: solid 2px lightseagreen;
+ }
+
+ .botonesGo
+ {          
+     color: white;
+     border: solid 3px white;
+     padding: 5px 70px;  
+ }
+
+ .botonesGo2
+ {          
+     color: white;
+     border: solid 3px white;
+     padding: 5px 63px;  
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .moreInfoGo
+ {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: 1fr;
+     text-align: center;
+     color: white;
+     border: solid 3px lightseagreen;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 15px;
+ }
+ .datoPriority
+ {
+     grid-column: 1/2;
+     grid-row: 1/2;
+ }
+ .datoSalaryMethod
+ {
+     grid-column: 2/3;
+     grid-row: 1/2;
+ }
+ .datoManagerContract
+ {
+     grid-column: 3/4;
+     grid-row: 1/2;
+ }
+ .contenedorTotalBotonGo
+ {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(3,1fr);
+     text-align: center;
+     color: white;
+     border: solid 3px lightseagreen;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+ }
+ .tituloNombreJugador
+ {
+     padding-top: 10px;
+ }
+
+ .tituloNombreJugador h2{
+     color: whitesmoke;
+ }
+ .contenedorTotalBotonGo h3{
+     font-weight: 400;
+     font-size: 21px;
+ }
+ .moreInfoGo h3{
+     font-weight: 400;
+     font-size: 21px;
+ }
+ .tituloNombreJugador{
+     text-align: center;
+     padding-bottom: 10px;
+ }
+
+ .datoAge
+ {
+     grid-column: 1/2;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+ }
+
+ .datoMainPosition
+ {
+     grid-column: 2/3;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+
+ }
+
+ .datoFoot
+ {
+     grid-column: 3/4;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+
+ }
+
+ .datoNationality
+ {
+     grid-column: 1/2;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoCommunityPassport
+ {
+     grid-column: 2/3;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoTransferType
+ {
+     grid-column: 3/4;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoPlayerClass
+ {
+     grid-column: 2/3;
+     grid-row: 4/5;
+ }
+
+
+ .btnAgregar
+ {
+     color: white;
+     border: solid 2px white;
+     padding: 8px 11px;
+     margin-bottom: 10px;
+ }
+ .comentariosExtra
+ {
+     text-align: center;
+     color: wheat;
+ }
+ .comentariosExtra textarea
+ {
+     color: white;
+     font-style: italic;
+ }
+ .botonesGo
+ {          
+     color: white;
+     border: solid 3px white;
+     padding: 5px 70px;  
+ }
+
+ .botonesGo2
+ {          
+     color: white;
+     border: solid 3px white;
+     padding: 5px 63px;  
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .moreInfoGo
+ {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: 1fr;
+     text-align: center;
+     color: white;
+     border: solid 3px lightseagreen;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 15px;
+ }
+ .datoPriority
+ {
+     grid-column: 1/2;
+     grid-row: 1/2;
+ }
+ .datoSalaryMethod
+ {
+     grid-column: 2/3;
+     grid-row: 1/2;
+ }
+ .datoManagerContract
+ {
+     grid-column: 3/4;
+     grid-row: 1/2;
+ }
+ .contenedorTotalBotonGo
+ {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(3,1fr);
+     text-align: center;
+     color: white;
+     border: solid 3px lightseagreen;
+     width: 90%;
+     margin-right: auto;
+     margin-left: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+ }
+ .tituloNombreJugador
+ {
+     padding-top: 10px;
+ }
+
+ .tituloNombreJugador h2{
+     color: whitesmoke;
+ }
+ .contenedorTotalBotonGo h3{
+     font-weight: 400;
+     font-size: 21px;
+ }
+ .moreInfoGo h3{
+     font-weight: 400;
+     font-size: 21px;
+ }
+ .tituloNombreJugador{
+     text-align: center;
+     padding-bottom: 10px;
+ }
+
+ .datoAge
+ {
+     grid-column: 1/2;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+ }
+
+ .datoMainPosition
+ {
+     grid-column: 2/3;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+
+ }
+
+ .datoFoot
+ {
+     grid-column: 3/4;
+     grid-row: 1/2;
+     padding-bottom: 10px;
+
+ }
+
+ .datoNationality
+ {
+     grid-column: 1/2;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoCommunityPassport
+ {
+     grid-column: 2/3;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoTransferType
+ {
+     grid-column: 3/4;
+     grid-row: 2/3;
+     padding-bottom: 10px;
+
+ }
+
+ .datoPlayerClass
+ {
+     grid-column: 2/3;
+     grid-row: 4/5;
+ }
+
